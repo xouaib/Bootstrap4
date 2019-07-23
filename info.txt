@@ -1,0 +1,2 @@
+This tutorial is a pratic of the tutorial writed in the following URL:
+https://www.freecodecamp.org/news/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33/
