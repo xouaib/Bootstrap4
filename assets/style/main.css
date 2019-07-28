@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* All */
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: "Raleway";
+}
+
+.bg-dark {
+    background-color: #343a40!important
+}
+
+.bg-primary {
+    background-color: #007bff!important
+}
+
+
+/* All */
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #F97300;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+    /* Relative to the font-size of the element (2em means 2 times the size of the current font)	 */
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    /* Align the flex items at the end of the container */
+}
+
+
+/* Navbar */
+
+
+/* Header */
+
+.header {
+    background-image: url('../images/content/header.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    /* background should be cover full screen */
+    background-position: center;
+}
+
+.header .overlay {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.473);
+}
+
+.header .description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.header .description h1 {
+    color: #F97300;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header .description p {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #201C29;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.header .description button {
+    border: 1px solid #f97300;
+    background-color: #F97300;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header .description button:hover {
+    background-color: #fff !important;
+    color: #F97300 !important;
+}
+
+
+/* Header */
+
+
+/* About */
+
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.aboutme h1 {
+    color: #F97300;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.aboutme h1::first-letter {
+    border-bottom: 5px solid #10828c;
+}
+
+.about img {
+    height: 72%;
+    width: 67%;
+    border-radius: 50%;
+}
+
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+    font-weight: bold;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #10828c;
+    height: 100%;
+}
+
+.about .desc h3 {
+    color: #10828c;
+    font-weight: bold;
+}
+
+.about .desc .introduction {
+    line-height: 2;
+    color: #888;
+}
+
+.about .desc h4 {
+    color: #10828c;
+    font-weight: bold;
+}
+
+.about .desc .followme {
+    text-align: center;
+}
+
+.about .desc .followme .github,
+.about .desc .followme .reddit,
+.about .desc .followme .quora,
+.about .desc .followme .linkedin,
+.about .desc .followme .twitter,
+.about .desc .followme .youtube,
+.container .mynetwork {
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.about .desc .followme .github {
+    color: #333;
+}
+
+.about .desc .followme .reddit,
+.container .mynetwork .reddit {
+    color: #ff4500;
+}
+
+.about .desc .followme .quora,
+.container .mynetwork .quora {
+    color: #aa2200;
+}
+
+.about .desc .followme .linkedin,
+.container .mynetwork .linkedin {
+    color: #0077B5;
+}
+
+.about .desc .followme .twitter,
+.container .mynetwork .twitter {
+    color: #00acee;
+}
+
+.about .desc .followme .youtube,
+.container .mynetwork .youtube {
+    color: #c4302b;
+}
+
+
+/* About */
+
+
+/* Portfolio */
+
+.portfolio {
+    margin: 4em 0;
+    position: relative;
+}
+
+.portfolio h1 {
+    color: #F97300;
+    font-weight: bolder;
+}
+
+.portfolio h1::first-letter {
+    border-bottom: 5px solid #10828c;
+}
+
+.portfolio img {
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+
+/* Portfolio */
+
+
+/* Blog */
+
+.blog {
+    margin: 4em 0;
+    position: relative;
+}
+
+.blog h1 {
+    color: #F97300;
+    margin: 2em;
+    font-weight: bold;
+}
+
+.blog h1::first-letter {
+    border-bottom: 5px solid #10828c;
+}
+
+.blog .card {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.blog .card img {
+    width: 100%;
+    height: 17em;
+}
+
+.blog .card-title {
+    color: #F97300;
+}
+
+.blog .card-body {
+    padding: 1em;
+}
+
+
+/* Blog */
+
+
+/* our team */
+
+.team {
+    margin: 4em 0;
+    position: relative;
+}
+
+.team img {
+    /* width: 100%;
+        height: 70%; */
+}
+
+.team .posteandnetwork {
+    text-align: center;
+}
+
+.team .posteandnetwork .mynetwork i {
+    font-size: 1.5em;
+}
+
+.team h1 {
+    color: #F97300;
+    font-weight: bold;
+}
+
+.team h1::first-letter {
+    border-bottom: 5px solid #10828c;
+}
+
+.team .item {
+    position: relative;
+}
+
+.team .des {
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 80%;
+    transition: .3s ease-in-out;
+}
+
+.team .item:hover .des {
+    height: 100%;
+    background: #f973007d;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* our team */
+
+
+/* contact */
+
+.contact-form {
+    margin: 6em 0;
+    position: relative;
+}
+
+.contact-form h1 {
+    padding: 2em 1px;
+    color: #F97300;
+}
+
+.contact-form .right {
+    max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+    background: #F97300;
+    color: #fff;
+    border: 0;
+}
+
+.contact-form .right .form-control::placeholder {
+    color: #888;
+    font-size: 16px;
+}
+
+
+/* contact */
